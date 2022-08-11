@@ -1,0 +1,95 @@
+{
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$O3tykLb0E5MvXm.CbG4Jzu.eZF9qCghoEBrGs2..qZEVpGovUOcIW",
+      "sdt": "012345678",
+      "status": 1,
+      "id": 2
+    },
+    {
+      "email": "huong@gmail.com",
+      "password": "$2a$10$J4GsiJe0P8.rMEYTQAD2YOYcZl2UVhmL5inMZ.VLY8fijoXP/wYUC",
+      "sdt": "04358345857",
+      "status": 0,
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "name": "điện thoại ",
+      "id": 1
+    },
+    {
+      "name": "máy tính ",
+      "id": 2
+    },
+    {
+      "name": "tai nghe",
+      "id": 3
+    },
+    {
+      "name": "laptop",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "img": "http://res.cloudinary.com/fpolyduy/image/upload/v1659911422/vjmrmjbdubsqlk5yursx.jpg",
+      "name": "Iphone 13pro max",
+      "originalPrice": 28600000,
+      "saleOffPrice": 28000000,
+      "feature": "Thiết kế vuông vức sang trọng, tần số quét lên tới 120Hz\nXét về phong cách thiết kế, iPhone 13 Pro Max vẫn sở hữu khung viền vuông vức bằng kim loại sang trọng tương tự như iPhone 12 Pro Max. Mặt lưng của máy được hoàn thiện nhám để tránh lưu lại vân tay khi sử dụng. Cầm chiếc iPhone 13 Pro Max trên tay chắc chắn sẽ thu hút mọi ánh nhìn bởi thiết kế quá ấn tượng.\n\nLà chiếc iPhone lớn nhất nên màn hình của iPhone 13 Pro Max cũng có kích thước lên tới 6.7 inch. Trên màn hình vẫn có tai thỏ quen thuộc nhưng đã được tinh chỉnh nhỏ gọn hơn thế hệ trước 20% nhằm tối ưu hóa không gian hiển thị. Camera selfie 12MP nằm trong tai thỏ và cung cấp bảo mật Face ID. Màn hình vẫn được bảo vệ bởi kính cường lực Ceramic Shield siêu bền.\n\nApple đã trang bị màn hình Super Retina XDR với công nghệ ProMotion giúp tinh chỉnh tần số quét 10 - 120Hz. Độ sáng tối đa cũng đã được tăng lên 1.200 nits. Có thể nói đây là điểm sáng giá nhất của iPhone 13 Pro Max.",
+      "description": "Thiết kế vuông vức sang trọng, tần số quét lên tới 120Hz\nXét về phong cách thiết kế, iPhone 13 Pro Max vẫn sở hữu khung viền vuông vức bằng kim loại sang trọng tương tự như iPhone 12 Pro Max. Mặt lưng của máy được hoàn thiện nhám để tránh lưu lại vân tay khi sử dụng. Cầm chiếc iPhone 13 Pro Max trên tay chắc chắn sẽ thu hút mọi ánh nhìn bởi thiết kế quá ấn tượng.\n\nLà chiếc iPhone lớn nhất nên màn hình của iPhone 13 Pro Max cũng có kích thước lên tới 6.7 inch. Trên màn hình vẫn có tai thỏ quen thuộc nhưng đã được tinh chỉnh nhỏ gọn hơn thế hệ trước 20% nhằm tối ưu hóa không gian hiển thị. Camera selfie 12MP nằm trong tai thỏ và cung cấp bảo mật Face ID. Màn hình vẫn được bảo vệ bởi kính cường lực Ceramic Shield siêu bền.\n\nApple đã trang bị màn hình Super Retina XDR với công nghệ ProMotion giúp tinh chỉnh tần số quét 10 - 120Hz. Độ sáng tối đa cũng đã được tăng lên 1.200 nits. Có thể nói đây là điểm sáng giá nhất của iPhone 13 Pro Max.",
+      "categoryId": 1,
+      "id": 1
+    },
+    {
+      "img": "http://res.cloudinary.com/fpolyduy/image/upload/v1659911667/aclu1gijhklknpmdyzdb.jpg",
+      "name": "Iphone 13pro max mau vang",
+      "originalPrice": 28900000,
+      "saleOffPrice": 27999000,
+      "feature": "Điện thoại iPhone 13 Pro Max 128 GB - siêu phẩm được mong chờ nhất ở nửa cuối năm 2021 đến từ Apple. Máy có thiết kế không mấy đột phá khi so với người tiền nhiệm, bên trong đây vẫn là một sản phẩm có màn hình siêu đẹp, tần số quét được nâng cấp lên 120 Hz mượt mà, cảm biến camera có kích thước lớn hơn, cùng hiệu năng mạnh mẽ với sức mạnh đến từ Apple A15 Bionic, sẵn sàng cùng bạn chinh phục mọi thử thách.",
+      "description": "iPhone 13 Pro Max được trang bị màn hình kích thước 6.7 inch cùng độ phân giải 1284 x 2778 Pixels, sử dụng tấm nền OLED cùng công nghệ Super Retina XDR cho khả năng tiết kiệm năng lượng vượt trội nhưng vẫn đảm bảo hiển thị sắc nét sống động chân thực.",
+      "categoryId": 1,
+      "id": 2
+    },
+    {
+      "img": "http://res.cloudinary.com/fpolyduy/image/upload/v1659911883/tini8u9fgnd0nq0x7e1f.jpg",
+      "name": "tai nghe aiport pro",
+      "originalPrice": 4200000,
+      "saleOffPrice": 4000000,
+      "feature": "AirPods Pro sẽ đưa bạn chìm vào không gian âm nhạc sâu lắng và đem tới trải nghiệm giải trí ưu việt chưa từng có trên dòng tai nghe không dây Apple. Những nâng cấp mạnh mẽ về thiết kế và công nghệ giúp tai nghe AirPods Pro trở thành thiết bị nghe nhạc chuyên nghiệp thực thụ.",
+      "description": "AirPods Pro sẽ đưa bạn chìm vào không gian âm nhạc sâu lắng và đem tới trải nghiệm giải trí ưu việt chưa từng có trên dòng tai nghe không dây Apple. Những nâng cấp mạnh mẽ về thiết kế và công nghệ giúp tai nghe AirPods Pro trở thành thiết bị nghe nhạc chuyên nghiệp thực thụ.",
+      "categoryId": 3,
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "laptop apple macbook",
+      "originalPrice": 35000000,
+      "saleOffPrice": 33000000,
+      "feature": "AirPods Pro sẽ đưa bạn chìm vào không gian âm nhạc sâu lắng và đem tới trải nghiệm giải trí ưu việt chưa từng có trên dòng tai nghe không dây Apple. Những nâng cấp mạnh mẽ về thiết kế và công nghệ giúp tai nghe AirPods Pro trở thành thiết bị nghe nhạc chuyên nghiệp thực thụ.",
+      "description": "AirPods Pro sẽ đưa bạn chìm vào không gian âm nhạc sâu lắng và đem tới trải nghiệm giải trí ưu việt chưa từng có trên dòng tai nghe không dây Apple. Những nâng cấp mạnh mẽ về thiết kế và công nghệ giúp tai nghe AirPods Pro trở thành thiết bị nghe nhạc chuyên nghiệp thực thụ.",
+      "img": "http://res.cloudinary.com/fpolyduy/image/upload/v1659912039/lpfufmzviqkktke9o5yx.jpg"
+    },
+    {
+      "id": 8,
+      "name": "samsung galasy s71",
+      "originalPrice": 10900000,
+      "saleOffPrice": 8999000,
+      "feature": "AirPods Pro sẽ đưa bạn chìm vào không gian âm nhạc sâu lắng và đem tới trải nghiệm giải trí ưu việt chưa từng có trên dòng tai nghe không dây Apple. Những nâng cấp mạnh mẽ về thiết kế và công nghệ giúp tai nghe AirPods Pro trở thành thiết bị nghe nhạc chuyên nghiệp thực thụ.",
+      "description": "AirPods Pro sẽ đưa bạn chìm vào không gian âm nhạc sâu lắng và đem tới trải nghiệm giải trí ưu việt chưa từng có trên dòng tai nghe không dây Apple. Những nâng cấp mạnh mẽ về thiết kế và công nghệ giúp tai nghe AirPods Pro trở thành thiết bị nghe nhạc chuyên nghiệp thực thụ.",
+      "img": "http://res.cloudinary.com/fpolyduy/image/upload/v1659921673/rsy77zztx5i8j3oa7fpy.jpg"
+    },
+    {
+      "img": "http://res.cloudinary.com/fpolyduy/image/upload/v1659921601/p6fgipsgaacensnf8ajv.jpg",
+      "name": "samsung galasy s22",
+      "saleOffPrice": 15900000,
+      "feature": "Samsung Galaxy S22 ra mắt với diện mạo vô cùng tinh tế và trẻ trung, mang trong mình thiết kế phẳng theo xu hướng thịnh hành, màn hình 120 Hz mượt mà, cụm camera AI 50 MP và bộ xử lý đến từ Qualcomm.",
+      "description": "Samsung Galaxy S22 ra mắt với diện mạo vô cùng tinh tế và trẻ trung, mang trong mình thiết kế phẳng theo xu hướng thịnh hành, màn hình 120 Hz mượt mà, cụm camera AI 50 MP và bộ xử lý đến từ Qualcomm.",
+      "categoryId": 1,
+      "id": 9
+    }
+  ]
+}
