@@ -22,10 +22,12 @@ const item3: MenuProps['items'] = [
 
 const App: React.FC = () => (
   <Layout>
+    <Link to={"/"}>
     <HeaderCustom>
       <Logo src={LogoImage} />
       {/* <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']} items={items1} /> */}
     </HeaderCustom>
+    </Link>
     <Layout>
       <Sider
         collapsible={true}

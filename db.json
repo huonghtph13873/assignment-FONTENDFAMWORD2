@@ -6,13 +6,6 @@
       "sdt": "012345678",
       "status": 1,
       "id": 2
-    },
-    {
-      "email": "huong@gmail.com",
-      "password": "$2a$10$J4GsiJe0P8.rMEYTQAD2YOYcZl2UVhmL5inMZ.VLY8fijoXP/wYUC",
-      "sdt": "04358345857",
-      "status": 0,
-      "id": 3
     }
   ],
   "categories": [

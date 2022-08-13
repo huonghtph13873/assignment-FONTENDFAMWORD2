@@ -10,31 +10,6 @@
     align-items: center;
     margin-right: 114px;
   }
-  
-  .form_search {
-    display: flex;
-    align-self: center;
-    border: none;
-    margin-right: 40px;
-  }
-  
-  .form_input {
-    width: 350px;
-    height: 36px;
-    outline: none;
-    border: none;
-    border-radius: 0px 10px 10px 0px;
-  }
-  .button_submit {
-    height: 36px;
-    border: none;
-    background: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px 0px 0px 10px;
-  }
-  
   .infomation {
     display: flex;
     align-items: center;
@@ -43,7 +18,7 @@
   .item {
     display: flex;
     align-items: center;
-    margin: 0px 10px;
+    margin: 0px 15px;
     color: #fff;
     cursor: pointer;
   }

@@ -89,7 +89,7 @@ const DetailPage = () => {
           <Row>
             <Col span={10}>
               <Dv2>
-                <div>
+                <div style={{"padding":"30px 0"}}>
                   <img src={product?.img} width="250px" />
                 </div>
                 <div>
@@ -116,14 +116,14 @@ const DetailPage = () => {
             </Col>
             <Col span={14}>
               <div>
-                <Row>
-                  <Col span={8}>
+                <Row style={{"padding":"30px 0"}}>
+                  <Col span={8}> 
                     <Title level={2} type="danger">
                      {product?.saleOffPrice}đ
                     </Title>
                   </Col>
                   <Col span={4}>
-                    <Text>{product?.originalPrice}đ</Text>
+                    {product?.originalPrice}đ
                   </Col>
                 </Row>
               </div>
@@ -135,8 +135,8 @@ const DetailPage = () => {
               </div>
               <Dv3>
                 <Row>
-                  <Col span={10}>
-                    <button onClick={()=>addToCart(product)}>Mua Ngay</button>
+                  <Col span={10} style={{"background":"red", "color":"white","border-radius":"5px"}}>
+                    <P onClick={()=>addToCart(product)}>Mua Ngay</P>
                   </Col>
                   <Col span={4}>
                     <Bot1 onClick={()=>addToCart(product)}>
@@ -151,8 +151,8 @@ const DetailPage = () => {
         {/* ---------------------------------------------------- */}
 
         <div>
-          <Section>
-            <h2>Sản phẩm liên quan</h2>
+          <Section style={{"padding":"30px 0"}}>
+            <h2 style={{"padding":"10px 0"}}>Sản phẩm cùng loại</h2>
             <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
               <Col className="gutter-row" span={6} style={style}>
                 <div>
@@ -443,7 +443,10 @@ const Dv3 = styled.button`
 `;
 
 // ----------------------------------------------------------------
-
+const P = styled.div`
+  font-size:18px;
+  padding:9px;
+`
 const Image = styled.img`
   height: 160px;
   width: 160px;

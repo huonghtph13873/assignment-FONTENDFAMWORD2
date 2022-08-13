@@ -64,8 +64,12 @@ const Header = (props: Props) => {
           <img src={image} width="65" height="57" alt="" />
         </NavLink>
       </div>
-
-      <div className={style.infomation} style={{"margin":"0 200px"}}>
+      <div className="box-search">
+            <form method="get">
+              <input type="text" style={{"border":"2px solid white", "border-radius":"11px", "width":"500px", "height":"40px", "margin":"20px -58px"}} className="search" autoComplete="off" placeholder="Tìm kiếm" />
+            </form>
+      </div>
+      <div className={style.infomation} style={{"padding":"0 117px"}}>
         <div className={style.item}>
           <div className={style.icon_phone}></div>
           <p className={style.content}>
@@ -162,28 +166,5 @@ const Header = (props: Props) => {
   );
 };
 
-const Ip = styled(Input.Search)`
-  position: relative;
-  input.ant-input {
-    width: 350px;
-    border-radius: 15px;
-  }
-  .ant-input-group-addon {
-    display: none;
-  }
-`;
-
-const Search = styled.div`
-  position: absolute;
-  top: 51px;
-  z-index: 20;
-  width: 394px;
-  padding: 20px 10px;
-  background-color: #fff;
-  .product-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-`;
+;
 export default Header;
