@@ -30,6 +30,7 @@ const EditProductPage: React.FC = () => {
   const [product, setProduct] = useState({});
   const [fileList, setfileList] = useState<UploadFile[] | any>([]);
   const { id } = useParams();
+  //useParams la lay gia tri id tren duong dan url
   const navigate = useNavigate();
   const onFinish = async (values: any) => {
     const file = fileList[0];

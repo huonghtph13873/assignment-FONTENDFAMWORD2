@@ -44,7 +44,7 @@ const items2: MenuProps["items"] = [
 ];
 
 const DetailPage = () => {
-  const [product, setProduct] = useState<ProductType[]>([]);
+  const [product, setProduct] = useState<ProductType>();
   const { id } = useParams();
   const dispatch = useDispatch();
   useEffect(() => {
@@ -130,12 +130,12 @@ const DetailPage = () => {
               <div>
                 <Text>
                   {" "}
-                 {product.description}
+                 {product?.description}
                 </Text>
               </div>
               <Dv3>
                 <Row>
-                  <Col span={10} style={{"background":"red", "color":"white","border-radius":"5px"}}>
+                  <Col span={10} style={{"background":"red", "color":"white","borderRadius":"5px"}}>
                     <P onClick={()=>addToCart(product)}>Mua Ngay</P>
                   </Col>
                   <Col span={4}>

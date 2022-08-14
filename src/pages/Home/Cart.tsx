@@ -120,17 +120,17 @@ const Cart = (props: Props) => {
               })}
             </Wi>
           </Dep>
-          <div>
+          <P6>
             <Cod>
               <P6>TIẾN HÀNH ĐẶT HÀNG</P6>
             </Cod>
             <br></br>
-            <Link to="/" style={{"text-align": "center"}}>
+            <Link to="/" >
               <Di>
                 CHỌN THÊM SẢN PHẨM KHÁC
               </Di>
             </Link>
-          </div>
+          </P6>
     </Container>
   );
 };

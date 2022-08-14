@@ -31,6 +31,7 @@ const styles: React.CSSProperties = {
 };
 
 const HomePage = () => {
+  //useState luu va tra du lieu
   const [products, setProducts] = useState<ProductType[]>([]);
   useEffect(() => {
     const getProducts = async () => {

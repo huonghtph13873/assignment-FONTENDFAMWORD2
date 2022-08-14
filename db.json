@@ -6,6 +6,13 @@
       "sdt": "012345678",
       "status": 1,
       "id": 2
+    },
+    {
+      "email": "admin1@gmail.com",
+      "password": "$2a$10$/rK3zjWvNgbOqUFGpLr...VxyWu8ToscQ7ylRkaaDE42dG4C9Pekq",
+      "sdt": "028723727228",
+      "status": 0,
+      "id": 3
     }
   ],
   "categories": [

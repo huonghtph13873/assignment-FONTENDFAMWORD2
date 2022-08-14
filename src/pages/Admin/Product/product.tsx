@@ -24,8 +24,20 @@ interface DataType {
 }
 
 const ProductAdminPage = () => {
+  //useState 
   const [dataTable, setDataTable] = useState<ProductType[]>([]);
+  //
   const [category, setCategory] = useState<CategoriesType[]>([]);
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const data = await getAll();
+        setDataTable(data.data);
+      } catch (err) {}
+    };
+
+    fetchData();
+  }, []);
   const columns: ColumnsType<ProductType> = [
     { key: "1", title: "ID", dataIndex: "id" },
     {
@@ -94,6 +106,7 @@ const ProductAdminPage = () => {
         const { data } = await deleteProduct(id);
         if (data) {
           setDataTable(dataTable.filter((item) => item.id !== id));
+         //tao mot mang moi va loai bo id san pham da xoa
         }
       },
     });
@@ -101,16 +114,7 @@ const ProductAdminPage = () => {
     console.log();
   };
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const data = await getAll();
-        setDataTable(data.data);
-      } catch (err) {}
-    };
 
-    fetchData();
-  }, []);
   useEffect(() => {
     const getCategory = async () => {
       try {

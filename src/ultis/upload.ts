@@ -2,8 +2,8 @@ import axios from "axios";
 
 export const upload = async (file: any) => {
   const CLOUNDINARY_URL =
-    "https://api.cloudinary.com/v1_1/fpolyduy/image/upload";
-  const CLOUNDINARY_PRESET = "ck8bz8wq";
+    "https://api.cloudinary.com/v1_1/dien-thoai/image/upload";
+  const CLOUNDINARY_PRESET = "kbjg6res";
   console.log(file);
 
   const formData = new FormData();
@@ -14,6 +14,5 @@ export const upload = async (file: any) => {
     headers: { "Content-Type": "application/form-data" },
   });
   console.log(data);
-
   return data.url;
 };
