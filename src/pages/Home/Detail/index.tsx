@@ -90,7 +90,7 @@ const DetailPage = () => {
             <Col span={10}>
               <Dv2>
                 <div style={{"padding":"30px 0"}}>
-                  <img src={product?.img} width="250px" />
+                  <img src={product?.img} width="250px"/>
                 </div>
                 <div>
                   <Row>
