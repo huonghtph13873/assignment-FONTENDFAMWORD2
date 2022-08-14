@@ -66,7 +66,7 @@ const Header = (props: Props) => {
       </div>
       <div className="box-search">
             <form method="get">
-              <input type="text" style={{"border":"2px solid white", "border-radius":"11px", "width":"500px", "height":"40px", "margin":"20px -58px"}} className="search" autoComplete="off" placeholder="Tìm kiếm" />
+              <input type="text" style={{"border":"2px solid white", "borderRadius":"11px", "width":"500px", "height":"40px", "margin":"20px -58px"}} className="search" autoComplete="off" placeholder="Tìm kiếm" />
             </form>
       </div>
       <div className={style.infomation} style={{"padding":"0 117px"}}>
