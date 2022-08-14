@@ -13,6 +13,7 @@ const Cart = (props: Props) => {
   const { cart, total }: any = useSelector((store) => store);
   console.log(total);
   console.log(cart);
+ 
 
   const dipatch = useDispatch();
   return (
@@ -40,7 +41,12 @@ const Cart = (props: Props) => {
                         <h3>{item.name}</h3>
                       </Col>
                       <Col span={6}>
-                        <button>
+                        <button  onClick={() => {
+                            dipatch({
+                              type: "cart/delete",
+                              payload: item.id,
+                            });
+                          }} >
                           <CloseOutlined />
                         </button>
                       </Col>

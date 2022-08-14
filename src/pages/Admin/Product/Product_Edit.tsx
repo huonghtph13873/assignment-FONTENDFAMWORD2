@@ -59,7 +59,7 @@ const EditProductPage: React.FC = () => {
         message.error("Có lỗi xảy ra");
       }
     }
-  };
+  }; 
   useEffect(() => {
     const get = async (id: string) => {
       const { data } = await getProductId(id);

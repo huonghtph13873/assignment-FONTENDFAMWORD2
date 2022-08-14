@@ -13,6 +13,13 @@
       "sdt": "028723727228",
       "status": 0,
       "id": 3
+    },
+    {
+      "email": "admin@gmail.com1",
+      "password": "$2a$10$i2DIezNdG9LRK7OX/WYag.jexV1GhChTOzzBXZ0sWEiZ8VzRmKfuG",
+      "sdt": "123456",
+      "status": 0,
+      "id": 4
     }
   ],
   "categories": [
